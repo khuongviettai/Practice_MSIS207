@@ -1,0 +1,50 @@
+.header  {
+    display: flex;
+}
+
+
+.header .right {
+    margin-top: -20px;
+    margin-left: 25px;
+}
+
+.skill .percent{
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background: red;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+
+}
+
+.skill ul {
+    list-style: none;
+}
+
+.skill .percent div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: aqua;
+}
+
+
+.skill {
+    margin-bottom: 120px;
+}
+
+.item-list a{
+    text-decoration: none;
+}
+
+
+.more {
+    text-decoration: none;
+    float: right;
+}
+
+.more a{
+    text-decoration: none;
+}
