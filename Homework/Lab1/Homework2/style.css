@@ -1,0 +1,187 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+
+html{
+   font-size: 18px;
+   margin-top: 32px;
+}
+
+.title-header-color{
+   color: #00bfbf;
+   text-align: center;
+   font-size: 32px;
+}
+
+header{
+   margin: 0 25%;
+   flex: 1;
+   text-align: center;
+   margin: 32px 16px 32px 32px;
+   margin: 0 25%;
+}
+
+.title{
+   margin-bottom: 12px;
+}
+
+.text{
+   margin-bottom: 32px;
+}
+
+
+.container{
+   padding-top: 16px;
+   display: flex;
+   justify-content: center;   
+}
+
+
+#about{
+   margin: 16px;
+   width: 300px;
+   
+}
+
+#about h2{
+   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+   color: #00bfbf;
+   height: 50px;
+   text-align: left;
+}
+
+.content p{
+   text-align: justify;
+   margin: -2px 0;
+}
+
+.imagesShow{
+   padding: 12px 103px 10px 57px;
+}
+
+#Details{
+   margin: auto;
+   width: 200px;
+}
+
+#Details h3{
+   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+   color: #00bfbf;
+   height: 50px;   
+   text-align: justify;
+   margin: -8px -65px;
+   font-size: 23px;
+}
+
+.content1{
+   text-align: justify;
+   margin: -8px -65px;
+}
+
+/* article */
+
+.text--E{
+   font-size: 17px;
+}
+
+article{
+   flex: 1;
+   background-color: #f3efe0;
+   margin: 32px 25%;
+   padding: 16px;
+}
+
+.educations{
+   padding-top: 10px;
+}
+
+.educations--title{
+   color: #00bfbf;
+}
+
+.educations_i{
+   padding-top: 32px;
+   display: flex;
+}
+
+.educations_time {
+   min-width: 40%;
+}
+
+.content-detail {
+   margin: 16px 0;
+}
+
+/* NEXT */
+
+#next {
+   margin:0 25%;
+   
+}
+
+/* SKILL */
+
+.abilities {
+   padding: 20px 0;
+   color: #00bfbf;
+}
+
+/* DETAIL SKILL */
+
+.skills_format {
+   display: flex;    
+   justify-content: space-between;
+   /* gap: 10%; */
+   gap: 32px;
+  
+}
+
+.skills_list {
+   width: 100%;
+   padding: 0 16px; 
+  
+}
+
+.skills_item {
+   /* margin: 8px -16px; */
+   margin: 8px 0;
+   display: flex;
+   justify-content: space-between;
+}
+ 
+.skills_item:hover {
+   background-color: #ffff56;
+}
+
+
+/* FOOTER SHILL */
+
+#skill_footer {
+   text-align: center;
+   margin: 32px 0;
+}
+
+#skill_footer p1 {
+   font-style: italic;
+   opacity: .6;
+}
+
+button {
+   display: block;
+   margin: 16px auto;
+   font-size: 18px;
+   padding: 6px;
+   color: #fff;
+   background-color:#22a3a0;
+   border: none;
+   border-radius: 5px;
+}
+
+button:hover {
+   cursor: pointer;
+   opacity: .8;
+}
+
+
+
