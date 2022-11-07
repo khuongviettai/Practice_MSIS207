@@ -26,3 +26,13 @@ function render(props){
     )
 
 }
+
+render(appState);
+
+setTimeout(() => {
+    appState.disable = false;
+    appState.items.push("Fourth");
+
+
+    render(appState);
+}, 1000);
