@@ -3,7 +3,7 @@ import { useState } from 'react'
 import FormExample0 from './FormExample0'
 import FormExample1 from'./FormExample1'
 import ShowData from './ShowData'
-const onSubmit = (v)=> alert ('Submit value: ' + JSON. stringify(v, null, 2))
+const onSubmit = (v)=> alert('Submit value: ' + JSON. stringify(v, null, 2))
 function App() {
 const [formFields, setFormFields] = useState({})
 const [errors, setErrors] = useState({})

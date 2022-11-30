@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 
 import SimpleForm from './SimpleForm'
-import InputField from'./InoutField'
+import InputField from'./InputField'
 const FormExample1 = ({ onSubmit, onChange, initialValue = {} }) => {
 const [formFields, setFormFields] = useState (initialValue)
 const [valid, setValid] = useState(true)
@@ -15,7 +15,7 @@ return (
 <div className="TheForm">
 <h1>Multiple fields</h1>
 <SimpleForm
-value={formfields}
+value={formFields}
 onChange={setFormFields}
 onValid={(v, errs) =>
 {

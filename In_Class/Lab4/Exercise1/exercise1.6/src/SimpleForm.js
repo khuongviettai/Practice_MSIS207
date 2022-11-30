@@ -1,10 +1,10 @@
 import { useCallback, useEffect, useState } from 'react'
-import FormContext from'. /FormContext'
+import FormContext from'./FormContext'
 
 const SimpleForm = ({ children, value, onChange, onValid }) =>{
 const [values, setValues] = useState (value || {})
 const [dirtyFields, setDirtyFields] = useState({})
-cost [invalidFields, setInvalidFields]= useState({})
+const [invalidFields, setInvalidFields]= useState({})
 
 
 useEffect(()=>
@@ -25,7 +25,7 @@ Object.keys (invalidFields).every((i) => !invalidFields[i]),
 invalidFields
 )
 }
-}, [LonValid, invalidFields])
+}, [onValid, invalidFields])
 const setValue = useCallback(
 (field, v) => setValues ((vs) => ({...vs, [field]: v })),
 [setValues]
