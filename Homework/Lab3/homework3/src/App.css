@@ -1,0 +1,226 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  min-height: 1000px;
+  margin: 50px;
+  background: #fff;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  box-shadow: 0 35px 35px rgba(0, 0, 0, 1);
+}
+
+.container .left-side {
+  position: relative;
+  background-color: #00806E;
+  padding: 40px;
+}
+
+.container .right--side {
+  position: relative;
+  background-color: #fff;
+  padding: 40px;
+}
+
+.profile-text {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.profile-text .imgbox {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 25px;
+  border: 2px solid #FF3300;
+}
+
+.profile-text .imgbox img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.profile-text h2{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #FFD84D;
+  text-align: center;
+  font-weight: 700;
+}
+
+.contact {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.title {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-align: center;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+}
+
+
+.contact ul {
+  position: relative;
+}
+
+.contact ul li {
+  position: relative;
+  list-style: none;
+  margin: 10px 0;
+  color: #FFD84D;
+}
+
+.contact ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.contact ul li p{
+  font-size: 15px;
+  display: inline-flex;
+  text-decoration: none;
+  color: #fff;
+}
+
+.contact .education {
+  margin-bottom: 15px;
+}
+
+.education .title {
+  margin-top: 15px;
+}
+.education h5 {
+  margin-bottom: 5px;
+  color: aqua;
+  font-weight: 500;
+}
+
+.education h4 {
+  margin-bottom: 5px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+
+.education .end-infor {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  padding-bottom: 20px;
+}
+
+
+.language .title {
+  margin-top: 15px;
+}
+
+.language ul li {
+  list-style: none;
+  margin-bottom: 5px;
+  color: #fff;
+}
+
+.contact.language .percent {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 10px;
+  background: #00806E;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.contact.language .percent div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: aqua;
+}
+
+
+
+.about {
+  margin-bottom: 50px;
+}
+
+
+.title2 {
+  text-transform: uppercase;
+  color: #003147;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.about p {
+  color: #333;
+  font-size: 14px;
+  text-indent: 30px;
+}
+
+
+.skill .box {
+  position: relative;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  justify-content: center;
+  margin-bottom: 15px;
+  align-items: center;
+}
+
+.skill .bo.skill .box h4{
+  text-transform: uppercase;
+  color: #848c99;
+  font-weight: 500;
+}
+
+.skill .box .percent {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 10px;
+  color: #848c99;
+  border: 1px solid;
+}
+
+
+.skill .box .percent div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: aqua;
+}
